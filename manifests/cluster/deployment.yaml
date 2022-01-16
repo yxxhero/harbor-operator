@@ -37177,7 +37177,7 @@ spec:
         app: redisoperator
     spec:
       containers:
-      - image: ghcr.io/goharbor/redis-operator-ext:v1.0.1
+      - image:  quay.io/spotahome/redis-operator:v1.1.0-rc.1
         imagePullPolicy: IfNotPresent
         name: app
         resources:

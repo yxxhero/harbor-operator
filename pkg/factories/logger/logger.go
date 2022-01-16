@@ -12,7 +12,7 @@ var loggerContext = "logger"
 func Get(ctx context.Context) logr.Logger {
 	l := ctx.Value(&loggerContext)
 	if l == nil {
-		return ctrl.Log
+		return ctrl.Log.WithName("")
 	}
 
 	return l.(logr.Logger)

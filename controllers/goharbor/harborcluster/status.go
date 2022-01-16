@@ -247,7 +247,7 @@ func (s *status) validate() error {
 		return errors.New("missing context")
 	}
 
-	if s.log == nil {
+	if s.log == struct{}{} {
 		return errors.New("missing logger")
 	}
 

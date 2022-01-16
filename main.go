@@ -37,7 +37,7 @@ func setupContextAndLogger() (context.Context, logr.Logger, error) {
 
 	err := setup.Logger(ctx, name, version)
 	if err != nil {
-		return nil, nil, err
+		return nil, logr.Logger{}, err
 	}
 
 	application.SetName(&ctx, name)

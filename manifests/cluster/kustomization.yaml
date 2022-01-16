@@ -38,8 +38,7 @@ patchesJson6902:
 
 images:
   - name: quay.io/spotahome/redis-operator
-    newName: ghcr.io/goharbor/redis-operator-ext
-    newTag: v1.0.1
+    newTag: v1.1.0-rc.1
   - name: minio/operator
     newName: quay.io/minio/operator
   - name: minio/console

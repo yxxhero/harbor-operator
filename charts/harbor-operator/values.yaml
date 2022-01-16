@@ -249,7 +249,7 @@ tolerations: []
 # }`
 affinity: {}
 
-redisoperator:
+redis-operator:
   # redisoperator.enabled -- Whether to enabled [Redis Operator](https://github.com/spotahome/redis-operator)
   enabled: false
   rbac:
